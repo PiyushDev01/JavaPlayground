@@ -60,7 +60,7 @@ public class Practice1 {
 //            System.out.print(i+",");
 //        }
 //    }
-    //Q4. write program to find max element in array..
+    //Q4. write program to find max element in array.
 //    public static void main(String[] args) {
 //        int [] arr= {12,3,11,22,35,1,2,31,32,23};
 //        int max=arr[0];
@@ -72,5 +72,6 @@ public class Practice1 {
 //        Arrays.sort(arr);
 //        System.out.println(arr[arr.length-1]);
 //    }
+
 
 }
