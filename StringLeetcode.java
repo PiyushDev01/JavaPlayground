@@ -1,6 +1,6 @@
 public class StringLeetcode {
 
-// Q.1   You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.
+// Q.3110   You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.
 //
 //    Return the score of s.
 
@@ -19,7 +19,7 @@ public class StringLeetcode {
 //        System.out.println(score);
 //
 //    }
-//    Q2. Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). If the character ch does not exist in word, do nothing.
+//    Q.2000 . Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). If the character ch does not exist in word, do nothing.
 //
 //    For example, if word = "abcdefd" and ch = "d", then you should reverse the segment that starts at 0 and ends at 3 (inclusive). The resulting string will be "dcbaefd".
 //    Return the resulting string.
@@ -41,7 +41,7 @@ public class StringLeetcode {
 //    }
 //    System.out.println(word);
 //}
-//    Q3.You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
+//    Q.771 .You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
 //
 //    Letters are case sensitive, so "a" is considered a different type of stone from "A".
 
