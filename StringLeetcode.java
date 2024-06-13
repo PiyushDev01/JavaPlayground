@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class StringLeetcode {
 
 // Q.3110   You are given a string s. The score of a string is defined as the sum of the absolute difference between the ASCII values of adjacent characters.
@@ -57,6 +60,27 @@ public class StringLeetcode {
 //        }
 //        System.out.println(c);
 //    }
+//      Q.2942. Find Words Containing Character
+//You are given a 0-indexed array of strings words and a character x.
+//
+//    Return an array of indices representing the words that contain the character x.
+//
+//    Note that the returned array may be in any order.
 
+//    public static void main(String[] args) {
+//        String [] word= {"abc","bcd","aaaa","cbc"};
+//        char x='a';
+//
+//
+//        List<Integer> l= new ArrayList<Integer>();
+//
+//        for (int i = 0; i < word.length ; i++) {
+//            if(word[i].indexOf(x)!=-1){
+//                l.add(i);
+//            }
+//
+//        }
+//        System.out.println(l);
+//    }
 
 }
