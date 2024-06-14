@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class StringLeetcode {
@@ -83,4 +85,49 @@ public class StringLeetcode {
 //        System.out.println(l);
 //    }
 
+//    2785. Sort Vowels in a String
+//    Given a 0-indexed string s, permute s to get a new string t such that:
+//
+//    All consonants remain in their original places. More formally, if there is an index i with 0 <= i < s.length such that s[i] is a consonant, then t[i] = s[i].
+//    The vowels must be sorted in the nondecreasing order of their ASCII values. More formally, for pairs of indices i, j with 0 <= i < j < s.length such that s[i] and s[j] are vowels, then t[i] must not have a higher ASCII value than t[j].
+//    Return the resulting string.
+//
+//    The vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in lowercase or uppercase. Consonants comprise all letters that are not vowels.
+
+
+//    public static boolean Isvowel(char c){
+//        return  "aeiouAEIOU".indexOf(c)!=-1;
+//    }
+//
+//    public static void main(String[] args) {
+//        String s = "lEetcOde";
+//        char[] sarr= s.toCharArray();
+//
+//        List<Character> l= new ArrayList<Character>();
+//        for( char c: sarr){
+//            if(Isvowel(c)){
+//                l.add(c);
+//            }
+//        }
+//        Collections.sort(l);
+//
+//        int v=0;
+//        for (int i=0; i< sarr.length; i++){
+//            if(Isvowel(sarr[i])){
+//                sarr[i]=l.get(v++);
+//            }
+//        }
+//        String str= new String(sarr);
+//        System.out.println(str);
+//
+//    }
+//
 }
+
+
+
+
+
+
+
+
